@@ -1,0 +1,43 @@
+@import url("../../styles.css");
+
+.nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(000, 000, 000, 0.2);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav__image {
+  display: block;
+  width: 80px;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__list-object {
+  margin: 0 5px 0 5px;
+}
+
+.nav__list-object > a {
+  font-size: 18px;
+  padding: 5px 20px;
+  color: var(--link-color-buttom);
+  color: black;
+  transition: .25s;
+}
+
+.nav__list-object > a > span {
+    transition: .25s;
+  }
+
+.nav__list-object:hover > a > span {
+    color: var(--card-bg-color);
+}

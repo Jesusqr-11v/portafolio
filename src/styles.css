@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Mono:wght@100;300;500;700&family=Roboto:wght@100&display=swap");
+
+:root {
+  --main-bg-color: #fff;
+  --link-color-buttom: #000;
+  --card-bg-color: rgb(247, 241, 241);
+  --border-color: #404040;
+  --text-project-color: #404040;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: var(--main-bg-color);
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+  transition: 1s;
+}
+
+.half {
+  background: #e5e5f7;
+  position: relative;
+}
+
+.low {
+}
+
+.section__subtitle {
+  position: absolute;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--text-project-color);
+  top: 14%;
+  left: 11%;
+}
+
+.section__redirection-shadow {
+  position: absolute;
+  top: 78%;
+  left: 18%;
+  background: var(--border-color);
+  transform: translate(5px, 5px);
+  width: 238px;
+  height: 58px;
+}
+
+.section__redirection {
+  position: absolute;
+  top: 78%;
+  left: 18%;
+  background: var(--card-bg-color);
+  padding: 15px 20px;
+  border: 2px solid var(--border-color);
+  color: var(--text-project-color);
+  transition: 0.25s;
+  font-size: 18px;
+}
+
+.section__redirection:hover {
+  transform: translate(5px, 5px);
+}

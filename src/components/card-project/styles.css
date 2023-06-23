@@ -1,0 +1,81 @@
+@import url(../../styles.css);
+
+.card {
+  width: 35vw;
+  min-width: 250px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--card-bg-color);
+  box-shadow: 30px 30px 30px 0px rgba(20%, 20%, 100%, 0.1);
+}
+
+.card__decoration {
+  display: flex;
+  border-bottom: 2px solid var(--border-color);
+  padding: 5px 10px;
+}
+
+.card__decoration-object {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 5px 3px;
+}
+
+.card__decoration-object:nth-child(1) {
+  background: red;
+  margin-left: 8px;
+}
+
+.card__decoration-object:nth-child(2) {
+  background: #ffff00;
+}
+
+.card__decoration-object:nth-child(3) {
+  background: #66ff00;
+}
+
+.card__info {
+  margin: 8px;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.card__title {
+  font-size: 32px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: var(--text-project-color);
+}
+
+.card__description {
+  text-overflow: ellipsis;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 2em;
+  word-wrap: break-word;
+  text-align: left;
+  color: var(--text-project-color);
+}
+
+.card__link {
+  padding: 18px;
+  margin-right: 10px;
+  text-align: end;
+}
+
+.card__link > a {
+  color: #000;
+}
+
+.card__link > a > span {
+    font-size: 20px;
+    transition: .25s;
+}
+
+.card__link > a:hover > span {
+  display: inline-block;
+  transform: translate(5px, 0px);
+}
