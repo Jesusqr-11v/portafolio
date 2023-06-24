@@ -12,7 +12,7 @@ export const Windows = () => {
       <section className="windows__section">
         <div className="windows__bar">
           <div className="windows__bar-name">
-            <img src="/computer.png" alt="Icon concact" />
+            <img src="computer.png" alt="Icon concact" />
             <p>Contact</p>
           </div>
           <div className="shadow">
@@ -43,7 +43,7 @@ export const Windows = () => {
                 target="_blanck"
               >
                 <img
-                  src="/linkedin.png"
+                  src="linkedin.png"
                   alt="Linkedin logo"
                   className="windows__concact-img email"
                 />
@@ -52,7 +52,7 @@ export const Windows = () => {
             <div>
               <a href="https://github.com/Jesusqr-11v" target="_blanck">
                 <img
-                  src="/github.png"
+                  src="github.png"
                   alt="github logo"
                   className="windows__concact-img"
                 />
@@ -60,9 +60,34 @@ export const Windows = () => {
             </div>
           </div>
           <div className="windows__concact-form">
-            <form>
-              TMP
-            </form>
+            <div>
+              <h3>Veo que coloco luego</h3>
+              <form>
+                <div className="item__concact">
+                  <label htmlFor="name">Nombre</label>
+                  <input type="text" id="name" />
+                </div>
+                <div className="item__concact">
+                  <label htmlFor="number">Numero</label>
+                  <input type="text" id="number" />
+                </div>
+                <div className="item__concact">
+                  <label htmlFor="email">Correo</label>
+                  <input type="text" id="email" />
+                </div>
+                <div className="item__concact">
+                  <label htmlFor="asunto">Asunto</label>
+                  <input type="text" id="asunto" />
+                </div>
+                <div className="item__concact textarea">
+                  <label htmlFor="message">Mensaje</label>
+                  <textarea name="" id="message"></textarea>
+                </div>
+                <div className="item__button">
+                  <button>Enviar</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <>
       <header>
-        <Navbar img={"hola"} />
+        <Navbar/>
       </header>
       <main>
         <section className="section" id="top">
