@@ -2,7 +2,8 @@
 
 .card {
   width: 35vw;
-  min-width: 250px;
+  min-width: 300px;
+  max-width: 600px;
   border: 2px solid var(--border-color);
   border-radius: 10px;
   background-color: var(--card-bg-color);
@@ -28,11 +29,11 @@
 }
 
 .card__decoration-object:nth-child(2) {
-  background: #ffff00;
+  background: #ebeb14;
 }
 
 .card__decoration-object:nth-child(3) {
-  background: #66ff00;
+  background: #60e10e;
 }
 
 .card__info {

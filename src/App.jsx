@@ -1,5 +1,6 @@
 import { Card } from "./components/card-project";
 import { Navbar } from "./components/navbar";
+import { Windows } from "./components/windows-contact";
 import { datos } from "./project-info/info";
 
 export const App = () => {
@@ -38,7 +39,7 @@ export const App = () => {
           </a>
         </section>
         <section className="section low" id="bottom">
-          Botton
+            <Windows/>
         </section>
       </main>
     </>

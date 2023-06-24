@@ -5,7 +5,7 @@ export const datos = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore neque illum perspiciatis eum aspernatur sequi. Maiores ut cum distinctio dolor delectus voluptatum, quae vero neque nam. Voluptate repellendus quasi, dolor enim saepe excepturi illo neque in tenetur! Fuga, nulla obcaecati sequi suscipit odit dolor amet soluta maxime praesentium pariatur, adipisci quasi aliquid cum dignissimos dolore recusandae nihil voluptatibus eveniet, repudiandae cupiditate totam? Fuga reiciendis consequuntur veniam quae tenetur delectus ullam earum. Fuga, quia. Nemo architecto aliquam aliquid ad porro, reiciendis deserunt ab laudantium obcaecati! Quo enim, quis beatae autem doloremque eaque reprehenderit, nihil commodi, quibusdam neque mollitia. Minima, atque quidem.",
     link: "hkjhkljhklhjweh",
-    top: "25%",
+    top: "28%",
     left: "11%",
   },
   {
@@ -21,9 +21,9 @@ export const datos = [
     id: 3,
     title: "Dados",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore neque illum perspiciatis eum aspernatur sequi. Maiores ut cum distinctio dolor delectus voluptatum, quae vero neque nam. Voluptate repellendus quasi, dolor enim saepe excepturi illo neque in tenetur! Fuga, nulla obcaecati sequi suscipit odit dolor amet soluta maxime praesentium pariatur, adipisci uscipit odit dolor amet soluta maxime praesentium pariatur, adipisci quasi aliquid cum dignissimos dolore recusandae nihil voluptatibus",
+      "delectus que in tenetur suscipit amet soluta maxime pariatur, adipisci uscipit odit dolor amet soluta maxi",
     link: "hkjhkljhklhjweh",
-    top: "56%",
+    top: "58%",
     left: "50%",
   },
 ];
