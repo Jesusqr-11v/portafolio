@@ -63,7 +63,7 @@ export const Windows = () => {
           <div className="windows__concact-form">
             <div>
               <h3>Send a message</h3>
-              <form name="contact" method="POST" netlify>
+              <form netlify>
                 <div className="item__concact">
                   <label htmlFor="name">
                     <strong>Name</strong>
@@ -97,7 +97,6 @@ export const Windows = () => {
                 <div className="item__button">
                   <button>Send</button>
                 </div>
-                <input type="hidden" name="form-name" value="contact" />
               </form>
             </div>
           </div>
