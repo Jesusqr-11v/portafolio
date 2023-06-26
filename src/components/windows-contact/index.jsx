@@ -95,7 +95,7 @@ export const Windows = () => {
                   <textarea id="message" name="message"></textarea>
                 </div>
                 <div className="item__button">
-                  <button>Send</button>
+                  <button type="submit">Send</button>
                 </div>
               </form>
             </div>
