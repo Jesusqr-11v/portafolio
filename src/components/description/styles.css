@@ -1,0 +1,51 @@
+@import url(../../styles.css);
+
+@font-face {
+  font-family: "8bitOperatorPlusSC-Bold";
+  src: url("/fuentes/8bitOperatorPlusSC-Bold.ttf");
+}
+
+@font-face {
+  font-family: "8bitOperatorPlusSC-Regular";
+  src: url("/fuentes/8bitOperatorPlusSC-Regular.ttf");
+}
+
+h1 {
+  font-family: "8bitOperatorPlusSC-Bold";
+  font-size: 64px;
+}
+
+.contet__Description {
+  font-family: "8bitOperatorPlusSC-Regular";
+  font-size: 32px;
+}
+
+.contet__Description::after {
+  content: "...";
+  animation: point 3s infinite;
+}
+
+@media screen and (max-width: 850px){
+  h1{
+    font-size: 36px;
+  }
+
+  .contet__Description {
+    font-size: 18px;
+  }
+}
+
+@keyframes point {
+  0% {
+    content: " ";
+  }
+  33% {
+    content: ".";
+  }
+  66% {
+    content: "..";
+  }
+  100% {
+    content: "...";
+  }
+}

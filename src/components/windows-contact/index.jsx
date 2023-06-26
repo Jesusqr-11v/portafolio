@@ -7,6 +7,7 @@ export const Windows = () => {
     alert("Oye, tranquilo el boton es solo decoracion");
     setClick(0);
   }
+
   return (
     <div className="windows">
       <section className="windows__section">
@@ -61,31 +62,46 @@ export const Windows = () => {
           </div>
           <div className="windows__concact-form">
             <div>
-              <h3>Veo que coloco luego</h3>
-              <form>
+              <h3>Send a message</h3>
+              <form
+              // action="https://formsubmit.co/qrjesus11@gmail.com"
+              // method="POST"
+              >
                 <div className="item__concact">
-                  <label htmlFor="name">Nombre</label>
-                  <input type="text" id="name" />
+                  <label htmlFor="name">
+                    <strong>Name</strong>
+                  </label>
+                  <input type="text" id="name" name="name" />
                 </div>
                 <div className="item__concact">
-                  <label htmlFor="number">Numero</label>
-                  <input type="text" id="number" />
+                  <label htmlFor="number">
+                    <strong>Number</strong>
+                  </label>
+                  <input type="text" id="number" name="number" />
                 </div>
                 <div className="item__concact">
-                  <label htmlFor="email">Correo</label>
-                  <input type="text" id="email" />
+                  <label htmlFor="email">
+                    <strong>Email</strong>
+                  </label>
+                  <input type="email" id="email" name="email" />
                 </div>
                 <div className="item__concact">
-                  <label htmlFor="asunto">Asunto</label>
-                  <input type="text" id="asunto" />
+                  <label htmlFor="affairs">
+                    <strong>Affairs</strong>
+                  </label>
+                  <input type="text" id="affairs" name="affairs" />
                 </div>
                 <div className="item__concact textarea">
-                  <label htmlFor="message">Mensaje</label>
-                  <textarea name="" id="message"></textarea>
+                  <label htmlFor="message">
+                    <strong>Message</strong>
+                  </label>
+                  <textarea id="message" name="message"></textarea>
                 </div>
                 <div className="item__button">
-                  <button>Enviar</button>
+                  <button>Send</button>
                 </div>
+                {/* <input type="hidden" name="_next" value="https://jesusqr-11v.github.io/portafolio/" /> */}
+                {/* <input type="hidden" name="_captcha" value="false" /> */}
               </form>
             </div>
           </div>
