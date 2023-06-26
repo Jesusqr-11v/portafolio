@@ -97,6 +97,7 @@ export const Windows = () => {
                 <div className="item__button">
                   <button>Send</button>
                 </div>
+                <input type="hidden" name="form-name" value="contact" />
               </form>
             </div>
           </div>
