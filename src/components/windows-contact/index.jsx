@@ -63,10 +63,7 @@ export const Windows = () => {
           <div className="windows__concact-form">
             <div>
               <h3>Send a message</h3>
-              <form
-              // action="https://formsubmit.co/qrjesus11@gmail.com"
-              // method="POST"
-              >
+              <form name="contact" method="POST" netlify>
                 <div className="item__concact">
                   <label htmlFor="name">
                     <strong>Name</strong>
@@ -100,8 +97,6 @@ export const Windows = () => {
                 <div className="item__button">
                   <button>Send</button>
                 </div>
-                {/* <input type="hidden" name="_next" value="https://jesusqr-11v.github.io/portafolio/" /> */}
-                {/* <input type="hidden" name="_captcha" value="false" /> */}
               </form>
             </div>
           </div>
