@@ -75,10 +75,16 @@ body {
   .section__container {
     width: 70%;
   }
+  .project__title {
+    font-size: 54px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .section__container {
     width: 90%;
+  }
+  .project__title {
+    font-size: 44px;
   }
 }
