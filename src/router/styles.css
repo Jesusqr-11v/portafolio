@@ -1,0 +1,84 @@
+/* Ruta */
+
+body {
+  background: #e5e5f7;
+}
+
+.project__title {
+  text-align: center;
+  font-family: "8bitOperatorPlusSC-Bold";
+  font-size: 64px;
+}
+
+.section__container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.project__container {
+  margin: 100px 0;
+}
+
+.project__containe0:first-of-type {
+  margin-top: 0;
+}
+
+.title__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.Go__back > img {
+  height: 80px;
+}
+
+/* componente */
+
+.project > h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-family: "8bitOperatorPlusSC-Bold";
+}
+
+.project > p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 2em;
+  font-family: "8bitOperatorPlusSC-Regular";
+}
+
+.project > div {
+  display: flex;
+  justify-content: center;
+}
+
+.project > div > img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project > a {
+  display: block;
+  background: var(--card-bg-color);
+  padding: 15px 20px;
+  width: 140px;
+  border: 2px solid var(--border-color);
+  color: var(--text-project-color);
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .section__container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__container {
+    width: 90%;
+  }
+}

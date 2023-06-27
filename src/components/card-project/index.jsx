@@ -1,4 +1,5 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export const Card = ({ title, description, link }) => {
   return (
@@ -16,9 +17,9 @@ export const Card = ({ title, description, link }) => {
           <p className="card__description">{description}</p>
         </article>
         <p className="card__link">
-          <a href="">
+          <Link to={link}>
             <strong>Read more</strong> <span>→</span>
-          </a>
+          </Link>
         </p>
       </section>
     </>

@@ -60,6 +60,7 @@
   word-wrap: break-word;
   text-align: left;
   color: var(--text-project-color);
+  font-family: "8bitOperatorPlusSC-Regular";
 }
 
 .card__link {
