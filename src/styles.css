@@ -161,22 +161,3 @@ body {
     height: 1000px;
   }
 }
-
-@media screen and (max-height: 750px) {
-  .section__redirection-shadow {
-    top: 94%;
-    width: 240px;
-  }
-
-  .section__redirection {
-    top: 94%;
-    width: 240px;
-    height: 58px;
-  }
-  .half {
-    height: 1250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
