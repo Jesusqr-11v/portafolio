@@ -109,8 +109,8 @@
 }
 
 .windows__concact-form > div > h3 {
-  padding: 16px 0 16px 10px;
-  font-size: 26px;
+  padding: 8px 0 8px 10px;
+  font-size: 24px;
 }
 
 .item__concact {
@@ -165,16 +165,6 @@
   transform: translate(0px, 0px);
 }
 
-@media screen and (max-height: 750px) {
-  .windows {
-    height: 78vh;
-  }
-  .windows__concact-form > div > h3 {
-    padding: 8px 0 8px 10px;
-    font-size: 24px;
-  }
-}
-
 @media screen and (max-height: 550px) {
   .windows {
     margin-top: 50px;
@@ -188,7 +178,7 @@
 @media screen and (max-width: 850px) {
   .windows {
     width: 85%;
-    height: 800px;
+    height: 780px;
   }
   .windows__concact {
     display: flex;
