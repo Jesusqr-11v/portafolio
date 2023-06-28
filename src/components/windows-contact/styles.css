@@ -169,6 +169,10 @@
   .windows {
     height: 78vh;
   }
+  .windows__concact-form > div > h3 {
+    padding: 8px 0 8px 10px;
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-height: 550px) {
